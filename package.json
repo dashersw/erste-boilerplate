@@ -1,0 +1,16 @@
+{
+  "name": "erste-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dashersw/erste-boilerplate.git"
+  },
+  "author": "Armagan Amcalar <armagan@amcalar.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dashersw/erste-boilerplate/issues"
+  },
+  "homepage": "https://github.com/dashersw/erste-boilerplate#readme",
+}
