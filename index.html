@@ -5,6 +5,7 @@
     <title>erste boilerplate</title>
 
     <script src="https://cdn.rawgit.com/dashersw/erste/master/dist/erste.min.js"></script>
+    <script src="root-view.js"></script>
 </head>
 <body>
 <script>
@@ -16,29 +17,6 @@
             rootView.vm = vm;
 
             vm.setCurrentView(rootView);
-        }
-    }
-
-    class RootView extends erste.View {
-        template() {
-            return `
-        <root-view>
-            <h1>Hello world!</h1>
-            <button>Click me!</button>
-        </root-view>
-        `;
-        }
-
-        onTapButton() {
-            this.$('h1').innerText = 'Thanks for the click!';
-        }
-
-        get events() {
-            return {
-                'click': {
-                    'button': this.onTapButton
-                }
-            }
         }
     }
 
